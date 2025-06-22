@@ -45,11 +45,11 @@ if (!isset($_SESSION['username'])) {
 
 <div class="nav-links">
     <a href="add_book.php">➕ Add Book</a>
-    <a href="view_books.php">📚 View Books</a>
+    <a href="view_book.php">📚 View Books</a>
     <a href="issue_book.php">📖 Issue Book</a>
     <a href="return_book.php">↩️ Return Book</a>
     <a href="view_issued_books.php">📋 Issued Books</a>
-    <a href="view_users.php">👥 View Users</a>
+    <a href="view_user.php">👥 View Users</a>
     <a href="logout.php">🚪 Logout</a>
 </div>
 

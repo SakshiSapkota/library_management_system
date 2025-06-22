@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amrit Science Campus | Library Management System</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #fff0f0, #fdf6f6);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #990000;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    header h3 {
+      font-weight: normal;
+      font-size: 18px;
+      color: #ffcccc;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      background-color: #cc0000;
+      color: white;
+      padding: 12px 25px;
+      margin: 0 10px;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #e60000;
+      transform: scale(1.05);
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    section {
+      max-width: 600px;
+      background-color: #ffffffcc;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    section h2 {
+      font-size: 28px;
+      color: #990000;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #660000;
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px 10px;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin-bottom: 5px;
+    }
+
+    .designer {
+      font-size: 13px;
+      color: #ffaaaa;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Amrit Science Campus</h1>
+    <h3>Library Management System Portal</h3>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="register.php">Register</a>
+      <a href="view_book.php">View Books</a>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <section>
+      <h2>Welcome to Your Smart Library</h2>
+      <p>
+        Manage books, members, issues, and returns with ease.  
+        A simple system built for students and staff of Amrit Science Campus to streamline library services.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Amrit Science Campus. All rights reserved.</p>
+    <p class="designer">Designed & Developed by Sakshi Sapkota, Ajita Shrestha, Ashlesha Thapa & Abrika Shrestha</p>
+  </footer>
+
+</body>
+</html>
